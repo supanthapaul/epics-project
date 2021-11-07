@@ -1,0 +1,13 @@
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res, next) => {
+	res.json({
+      message: 'API starting point'
+    });
+});
+
+app.listen(port, () => {
+  console.log(`server listening at http://localhost:${port}`)
+})
