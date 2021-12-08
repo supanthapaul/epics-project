@@ -1,4 +1,4 @@
-.navbar {
+.navbar-epics {
   background: #1c2237;
   height: 80px;
   display: flex;
@@ -10,7 +10,7 @@
   z-index: 999;
 }
 
-.navbar-container {
+.navbar-epics-container {
   display: flex;
   justify-content: space-between;
   height: 80px;

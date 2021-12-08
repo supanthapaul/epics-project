@@ -1,0 +1,112 @@
+.diary-page-title {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 30px;
+}
+.react-datepicker-wrapper {
+	width: auto !important;
+}
+.diary-btn {
+	display: inline;
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  border: none;
+  background-color: aquamarine;
+  color: #0a2472;
+  font-family: 'Space Mono', monospace;
+}
+
+.diary-container {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.diary {
+	width: 70%;
+	background-color: #fff;
+	min-height: 700px;
+	margin-bottom: 5rem;
+	border: 5px solid #4527A0;
+	box-shadow: 5px 10px 0px 5px #FFEA00, 10px 25px 0px 10px #00E676;
+}
+
+.diary-title {
+	font-size: 36px;
+	margin: 3rem;
+	padding-bottom: 1rem;
+	border-bottom: 10px dotted #6EAEE5; 
+}
+
+.diary-content {
+	font-size: 20px;
+	margin: 3rem;
+}
+
+.entry-text-title {
+  width: 20em;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 2px;
+  border: unset;
+  background-color: lightgoldenrodyellow;
+  font-family: 'Space Mono', monospace;
+}
+
+.entry-text-title:focus {
+  outline-color: lightcoral;
+  font-family: 'Space Mono', monospace;
+  color: lightcoral;
+  font-size: 1rem;
+}
+
+.entry-text-title::placeholder {
+  color: lightcoral;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+}
+
+.entry-text-title::-ms-value {
+  color: lightcoral;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+}
+
+
+.entry-text-box {
+  width: 100%;
+  height: 20em;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 2px;
+  border: unset;
+  background-color: lightgoldenrodyellow;
+  font-family: 'Space Mono', monospace;
+}
+
+@media (min-width: 769px) {
+  .entry-text-box {
+    width: 40em;
+    height: 20em;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 2px;
+    border: unset;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Space Mono', monospace;
+  }
+}
+
+.entry-text-box:focus {
+  outline-color: lightcoral;
+  font-family: 'Space Mono', monospace;
+  color: lightcoral;
+  font-size: 1rem;
+}
+
+.entry-text-box::placeholder {
+  color: lightcoral;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+}

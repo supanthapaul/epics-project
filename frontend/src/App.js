@@ -3,35 +3,34 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './components/pages/HomePage/Home';
-import { AuthProvider } from "./contexts/AuthContext";
 import Products from './components/pages/Products/Products';
 import Footer from './components/pages/Footer/Footer';
-import Dashboard from './components/auth/Dashboard';
-import UpdateProfile from './components/auth/UpdateProfile';
-import Signup from './components/auth/Signup';
-import Login from './components/auth/Login';
-import ForgotPassword from './components/auth/ForgotPassword';
+// import Auth from './components/auth/Auth'
 import PrivateRoute from './components/auth/PrivateRoute';
+import { Diary } from './components/diary/Diary';
 
 function App() {
 	return (
 		<Router>
 			<Navbar />
-			<AuthProvider>
 				<Routes>
 					{/* <Route path='/' exact element={<Home />}/> */}
 					<Route path='/products' element={<Products />} />
-					<Route exact path='/' element={<PrivateRoute />}>
-						<Route exact path='/' element={<Dashboard />} />
+						<Route exact path='/' element={<Home />} />
+				{/* <PrivateRoute path='/diary' component={Diary} /> */}
+
+					{/* <Route exact path='/' element={<PrivateRoute />}>
+					</Route> */}
+					<Route exact path='/diary' element={<PrivateRoute />}>
+						<Route exact path='/diary' element={<Diary />} />
 					</Route>
-					<Route exact path='/update-profile' element={<PrivateRoute />}>
+					{/* <Route exact path='/update-profile' element={<PrivateRoute />}>
 						<Route exact path='/update-profile' element={<UpdateProfile />} />
 					</Route>
 					<Route path="/signup" element={<Signup />} />
-					<Route path="/login" element={<Login />} />
-					<Route path="/forgot-password" element={<ForgotPassword/>} />
+				<Route path="/forgot-password" element={<ForgotPassword/>} /> */}
+				{/* <Route path="/login" element={<Auth />} /> */}
 				</Routes>
-			</AuthProvider>
 			<Footer />
 		</Router>
 	);
