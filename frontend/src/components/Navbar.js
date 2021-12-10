@@ -70,7 +70,7 @@ function Navbar() {
 					<div className="navbar-epics-container container">
 						<Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
 							<GiOlive className="navbar-icon" />
-							PEACE
+							MindPeace
 						</Link>
 						<div className="menu-icon" onClick={handleClick} >
 							{click ? <FaTimes /> : <FaBars />}
@@ -88,7 +88,7 @@ function Navbar() {
 							</li>
 							<li className="nav-item">
 								<Link to="/products" className="nav-links" onClick={closeMobileMenu}>
-									Products
+									Guides
 								</Link>
 							</li>
 							<li className="nav-item">

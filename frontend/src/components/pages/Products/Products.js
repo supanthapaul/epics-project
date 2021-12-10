@@ -8,6 +8,7 @@ function Products() {
     <>
       <HeroSection {...homeObjOne} />
       <HeroSection {...homeObjTwo} />
+			<HeroSection {...homeObjThree} />
       <Pricing />
     </>
   );

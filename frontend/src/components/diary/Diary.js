@@ -33,6 +33,7 @@ export const Diary = () => {
 		const content = newEntryContent.trim();
 		if(!content) {
 			alert("Please write something before submitting");
+			return;
 		}
 
 		axios.post('http://localhost:8000/api/diary', {

@@ -2,27 +2,27 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Lorem ipsum dolor sit amet',
-    headline: 'Lorem ipsum dolor sit amet',
+    // topLine: '',
+    headline: '“You don’t have to control your thoughts. You just have to stop letting them control you.”',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-    buttonLabel: 'Get Started',
+      'MindPeace helps you and your loved ones fight through the hard times and get over this journey!',
+    buttonLabel: 'Find Out How',
     imgStart: '',
-    img: 'images/svg-1.svg',
+    img: '/images/reachingHand.png',
     alt: 'Credit Card'
   };
   
-  export const homeObjTwo = {
+  export const homeObjTwo= {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Lorem ipsum dolor sit amet',
-    headline: 'Lorem ipsum dolor sit amet',
+    topLine: '"Talk to yourself like you would to someone you love"',
+    headline: 'Get them professional help',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+      'Find out several ways you can provide professional help for your peers like talking to their therapist to seek further guidance, taking them to see a mental health professional or contact a local mental health service.',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: 'images/svg-5.svg',
+    img: 'images/deskDoc.png',
     alt: 'Vault'
   };
   
@@ -30,13 +30,13 @@ export const homeObjOne = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Lorem ipsum dolor sit amet',
-    headline: 'Lorem ipsum dolor sit amet',
+    topLine: '"It is just as important to listen"',
+    headline: 'Support your child emotionally',
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    buttonLabel: 'Get Started',
+      "Your child requires emotional support, and you must be their primary caregiver. The foundation of future social interactions is emotional support from family. Find out how!",
+    buttonLabel: 'How to Help',
     imgStart: 'start',
-    img: 'images/svg-7.svg',
+    img: 'images/onlineDoc.png',
     alt: 'Vault'
   };
   
@@ -44,13 +44,13 @@ export const homeObjOne = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Lorem ipsum dolor sit amet',
-    headline: 'Lorem ipsum dolor sit amet',
+    topLine: '"Self-care means giving yourself a permission to pause"',
+    headline: 'Is it grief or depression?',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-    buttonLabel: 'Get Started',
+      'As we age, we experience many losses. Loss is painful whether it’s a loss of independence, mobility, health, your long-time career, or someone you love. Grieving over these losses is normal and healthy, even if the feelings of sadness last for a long time.',
+    buttonLabel: 'Learn More',
     imgStart: 'start',
-    img: 'images/svg-8.svg',
+    img: 'images/consultDoc.png',
     alt: 'Vault'
   };
   

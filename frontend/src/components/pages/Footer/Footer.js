@@ -33,7 +33,7 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div className='footer-links'>
+      {/* <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
@@ -67,16 +67,23 @@ function Footer() {
             <Link to='/'>Twitter</Link>
           </div>
         </div>
-      </div>
+      </div> */}
+      <section className='social-media'>
+        <div className='social-media-wrap' style={{color:"#fff"}}>
+					<p>Emergency? If you or someone you know is going through something difficult, or struggling with thoughts of suicide or self-harm, you're not alone. Helplines can provide free, confidential and immediate support. <b>Call AASRA: +91-22-27546669</b></p> {"\n"}
+					<br/>
+					{/* <p><b>Call AASRA: +91-22-27546669</b></p> */}
+				</div>
+      </section>
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
             <GiOlive className="navbar-icon" />
-              PEACE
+              MindPeace
             </Link>
           </div>
-          <small className='website-rights'>PEACE © 2021</small>
+          <small className='website-rights'>MindPeace © 2021</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'

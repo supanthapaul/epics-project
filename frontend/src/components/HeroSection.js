@@ -13,7 +13,9 @@ function HeroSection({
   buttonLabel,
   img,
   alt,
-  imgStart
+  imgStart,
+	link,
+	list
 }) {
   return (
     <>
@@ -43,10 +45,34 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to='/sign-up'>
+								<ul>
+								{list && (
+									list.map(el => (
+										<li
+                  className={
+                    lightTextDesc
+                      ? 'home__hero-subtitle'
+                      : 'home__hero-subtitle dark'
+                  }
+									style={{
+										marginBottom: 8
+									}}
+                >
+                  {el}
+                </li>
+									))
+								)}
+
+								</ul>
+                <Link to={link ? link : '/products'}>
+									{
+										buttonLabel && (
                   <Button buttonSize='btn--wide' buttonColor='blue'>
                     {buttonLabel}
                   </Button>
+
+										)
+									}
                 </Link>
               </div>
             </div>

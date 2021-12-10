@@ -19,16 +19,16 @@ function Pricing() {
                 <div className='icon'>
                   <FaFire />
                 </div>
-                <h3>lorem ipsum</h3>
+                <h3></h3>
                 <h4>Adult</h4>
-                <p>lorem ipsum</p>
+                <p></p>
                 <ul className='pricing__container-features'>
-                  <li>lorem ipsum</li>
-                  <li>lorem ipsum</li>
-                  <li>lorem ipsum</li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='primary'>
-                Get Started
+                Get Clarity
                 </Button>
               </div>
             </Link>
@@ -37,16 +37,16 @@ function Pricing() {
                 <div className='icon'>
                   <BsXDiamondFill />
                 </div>
-                <h3>lorem ipsum</h3>
+                <h3></h3>
                 <h4>Teenager</h4>
-                <p>lorem ipsum</p>
+                <p></p>
                 <ul className='pricing__container-features'>
-                  <li>lorem ipsum</li>
-                  <li>lorem ipsum</li>
-                  <li>lorem ipsum</li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='blue'>
-                Get Started
+                Get Clarity
                 </Button>
               </div>
             </Link>
@@ -55,16 +55,16 @@ function Pricing() {
                 <div className='icon'>
                   <GiCrystalize />
                 </div>
-                <h3>lorem ipsum</h3>
+                <h3></h3>
                 <h4>Child</h4>
-                <p>lorem ipsum</p>
+                <p></p>
                 <ul className='pricing__container-features'>
-                  <li>lorem ipsum</li>
-                  <li>lorem ipsum</li>
-                  <li>lorem ipsum</li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Get Started
+								Get Clarity
                 </Button>
               </div>
             </Link>
