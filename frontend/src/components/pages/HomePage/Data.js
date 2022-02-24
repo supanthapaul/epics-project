@@ -7,7 +7,6 @@ export const homeObjOne = {
     description:
       'MindPeace helps you and your loved ones fight through the hard times and get over this journey!',
     buttonLabel: 'Find Out How',
-		link: '/assessment',
     imgStart: '',
     img: '/images/reachingHand.png',
     alt: 'Credit Card'
