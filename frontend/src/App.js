@@ -8,6 +8,7 @@ import Footer from './components/pages/Footer/Footer';
 // import Auth from './components/auth/Auth'
 import PrivateRoute from './components/auth/PrivateRoute';
 import { Diary } from './components/diary/Diary';
+import DepressionQuiz from './components/DepressionQuiz/DepressionQuiz';
 
 function App() {
 	return (
@@ -23,6 +24,9 @@ function App() {
 					</Route> */}
 					<Route exact path='/diary' element={<PrivateRoute />}>
 						<Route exact path='/diary' element={<Diary />} />
+					</Route>
+					<Route exact path='/assessment' element={<PrivateRoute />}>
+						<Route exact path='/assessment' element={<DepressionQuiz />} />
 					</Route>
 					{/* <Route exact path='/update-profile' element={<PrivateRoute />}>
 						<Route exact path='/update-profile' element={<UpdateProfile />} />
