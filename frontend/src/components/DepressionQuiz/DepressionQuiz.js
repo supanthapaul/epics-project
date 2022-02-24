@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import { questions } from './questions';
+import { questions, tips as allTips } from './Data';
+import ReactSpeedometer from "react-d3-speedometer"
 import './styles.css';
 
 const DepressionQuiz = () => {
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
+	const [tips, setTips] = useState([]);
 
 	const handleAnswerOptionClick = (answerScore) => {
 
@@ -16,6 +18,16 @@ const DepressionQuiz = () => {
 			setCurrentQuestion(nextQuestion);
 		} else {
 			setShowScore(true);
+			const scorePer = score/15;
+			if(scorePer < 30) {
+				setTips(allTips.low);
+			}
+			else if(scorePer < 60) {
+				setTips(allTips.medium);
+			}
+			else {
+				setTips(allTips.high);
+			}
 		}
 	};
 
@@ -23,9 +35,30 @@ const DepressionQuiz = () => {
 		<div className='quiz-parent'>
 			<h1 className='quiz-heading'>Depression Assessment</h1>
 			{showScore ? (
-				<div className='score-section'>
-					Your Depression metric is {(score/15)}.
-				</div>
+				<>
+					<div className='score-section'>
+						Your Depression metric is {(score/15)}.
+					</div>
+					<ReactSpeedometer
+						maxValue={80}
+						value={(score/15)}
+						needleColor="red"
+						startColor="green"
+						segments={20}
+						maxSegmentLabels={5}
+						currentValueText="Depression Metric"
+						height={350}
+						width={400}
+						endColor="red"
+					/>
+					<h4>Here are a few things we recommend you to do based on this: </h4>
+					<br/>
+					<ul>
+					{tips && tips.map((tip) => (
+								<li className='tips-list-item'>{tip}</li>
+							))}
+					</ul>
+				</>
 			) : (
 				<>
 					

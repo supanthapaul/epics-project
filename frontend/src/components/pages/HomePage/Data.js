@@ -5,9 +5,10 @@ export const homeObjOne = {
     // topLine: '',
     headline: '“You don’t have to control your thoughts. You just have to stop letting them control you.”',
     description:
-      'MindPeace helps you and your loved ones fight through the hard times and get over this journey!',
-    buttonLabel: 'Find Out How',
+      "Do you believe you're suffering with depression or are you unsure about why you're feeling the way you are? Take a simple assessment to find out 🦋",
+    buttonLabel: 'Take Assessment',
     imgStart: '',
+		link: '/assessment',
     img: '/images/reachingHand.png',
     alt: 'Credit Card'
   };

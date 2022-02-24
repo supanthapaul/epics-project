@@ -1,3 +1,30 @@
+export const tips = {
+	low: [
+		'Exercise, take a 15- to 30-minute brisk walk every day. Or you can dance, stretch, or do yoga!',
+		'Eat healthy foods',
+		'Don\'t dwell on problems.',
+		'Express yourself: Paint, draw, or doodle. Sew, cook, or bake. Write, dance, or compose music.',
+		'Notice good things: make it a goal to notice 3 good things in every day. The more you notice what\'s good, the more good you will notice.'
+	],
+	medium: [
+		'Keep a diary: Try writing a diary entry for today!',
+		'Exercise, take a 15- to 30-minute brisk walk every day. Or you can dance, stretch, or do yoga!',
+		'Eat healthy foods',
+		'Don\'t dwell on problems.',
+		'Express yourself: Paint, draw, or doodle. Sew, cook, or bake. Write, dance, or compose music.',
+		'Notice good things: make it a goal to notice 3 good things in every day. The more you notice what\'s good, the more good you will notice.'
+	],
+	high: [
+		'Consult a professional - Call AASRA: +91-22-27546669',
+		'If you don\'t feel comfortable talking to a professional, you can express how you feel to your friends or family and they can help us understand how we can best serve you', 
+		'Exercise, take a 15- to 30-minute brisk walk every day. Or you can dance, stretch, or do yoga!',
+		'Eat healthy foods',
+		'Don\'t dwell on problems.',
+		'Express yourself: Paint, draw, or doodle. Sew, cook, or bake. Write, dance, or compose music.',
+		'Notice good things: make it a goal to notice 3 good things in every day. The more you notice what\'s good, the more good you will notice.'
+	],
+
+}
 export const questions = [
 	{
 		questionText: 'What is your age group?',
