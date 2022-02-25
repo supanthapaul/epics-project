@@ -3,15 +3,16 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './components/pages/HomePage/Home';
-import Products from './components/pages/Products/Products';
+import Products from './components/pages/Guide/Products';
 import Footer from './components/pages/Footer/Footer';
 // import Auth from './components/auth/Auth'
 import PrivateRoute from './components/auth/PrivateRoute';
 import { Diary } from './components/diary/Diary';
 import DepressionQuiz from './components/DepressionQuiz/DepressionQuiz';
-import Adult from './components/pages/Services/Adult/Adult';
-import Child from './components/pages/Services/Child/Child';
-import Teenager from './components/pages/Services/Teenager/Teenager';
+import Adult from './components/pages/Ages/Adult/Adult';
+import Child from './components/pages/Ages/Child/Child';
+import Teenager from './components/pages/Ages/Teenager/Teenager';
+import Type from "./components/pages/Type/Type";
 
 function App() {
 	return (
@@ -34,6 +35,7 @@ function App() {
 					<Route exact path='/Adult' element={<Adult />} />
               		<Route exact path='/Child' element={<Child />} />
               		<Route exact path='/Teenager' element={<Teenager />} />
+					  <Route exact path='/Type' element={<Type />} />
 					{/* <Route exact path='/update-profile' element={<PrivateRoute />}>
 						<Route exact path='/update-profile' element={<UpdateProfile />} />
 					</Route>
