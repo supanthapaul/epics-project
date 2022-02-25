@@ -1,7 +1,7 @@
 export const homeObjOne = {
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     //topLine: 'Lorem ipsum dolor sit amet',
     headline: 'How to know if someone has depression?',
     // description:`- Disturbed sleep or sleeping too much\n
@@ -25,9 +25,9 @@ export const homeObjOne = {
   };
   
   export const homeObjTwo = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     //topLine: 'Lorem ipsum dolor sit amet',
     headline: 'What causes depression?',
     // description:`Depression can be caused by Medical conditions, such as stroke or cancer
@@ -47,9 +47,9 @@ export const homeObjOne = {
   };
   
   export const homeObjThree = {
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     //topLine: 'Lorem ipsum dolor sit amet',
     headline: 'Express how you feel',
     description:
@@ -62,17 +62,18 @@ export const homeObjOne = {
 		link: "/diary"
   };
   
-  // export const homeObjFour = {
-  //   lightBg: false,
-  //   lightText: true,
-  //   lightTextDesc: true,
-  //   topLine: 'Lorem ipsum dolor sit amet',
-  //   headline: 'Lorem ipsum dolor sit amet',
-  //   description:
-  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-  //   buttonLabel: 'Get Started',
-  //   imgStart: 'start',
-  //   img: 'images/svg-8.svg',
-  //   alt: 'Vault'
-  // };
+  export const homeObjFour = {
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+   //topLine: 'Lorem ipsum dolor sit amet',
+    headline: 'Why should we give importance to age-wise mental health',
+    description:
+      'Mental illnesses are among the most common health conditions in India.',
+    //buttonLabel: 'Get Started',
+    imgStart: 'start',
+    img: 'images/data.png',
+    alt: 'Vault',
+    list: [' More than 50% will be diagnosed with a mental illness or disorder at some point in their lifetime.','1 in 5 Indians will experience a mental illness in a given year.','1 in 5 children, either currently or at some point during their life, have had a seriously debilitating mental illness.','1 in 25 Indians lives with a serious mental illness, such as schizophrenia, bipolar disorder, or major depression.']
+  };
   
