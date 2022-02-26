@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from '../../Hero';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive, homeObjSix, homeObjSeven } from './Data';
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive, homeObjSix, homeObjSeven, homeObjEight, homeObjNine, homeObjTen } from './Data';
 
 
 function Type(){
@@ -13,9 +13,9 @@ function Type(){
       <Hero {...homeObjFive} />
       <Hero {...homeObjSix} />
       <Hero {...homeObjSeven} />
-      {/* <Hero {...homeObjEight} />
+      <Hero {...homeObjEight} />
       <Hero {...homeObjNine} />
-      <Hero {...homeObjTen} /> */}
+      <Hero {...homeObjTen} />
         </>
     );
 }

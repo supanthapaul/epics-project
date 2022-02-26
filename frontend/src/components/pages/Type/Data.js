@@ -112,7 +112,7 @@ export const homeObjTwo = {
     lightTextDesc: true,
     //topLine: 'Lorem ipsum dolor sit amet',
     headline: 'What to know if someone has Eating Disorders?',
-    // description:`Depression can be caused by Medical conditions, such as stroke or cancer
+    //description:`An eating disorder is a serious mental illness leading to significant disruptions in one's eating behaviours as well as in their related thoughts and emotions.`,
     // Genes – people who have a family history of depression may be at higher risk
     // Stress, including caregiver stress
     // Sleep problems
@@ -125,27 +125,35 @@ export const homeObjTwo = {
     imgStart: '',
     img: 'images/redhead-sad.png',
     alt: 'Vault',
-    list: ['Medical conditions, such as stroke or cancer Genes', 'People who have a family history of depression may be at higher risk', 'Stress, including caregiver stress', 'Sleep problems', 'Social isolation and loneliness', 'Lack of exercise or physical activity', 'Functional limitations that make engaging in activities of daily living difficult', 'Addiction and/or alcoholism —included in Substance-Induced Depressive Disorder']
+    list: ['Dieting despite being thin. Following a severely restricted diet. Eating only certain low-calorie foods. Banning “bad” foods such as carbohydrates and fats.'
+    ,'Obsession with calories, fat grams, and nutrition. Reading food labels, measuring and weighing portions, keeping a food diary, reading diet books.'
+    ,'Pretending to eat or lying about eating. Hiding, playing with, or throwing away food to avoid eating. Making excuses to get out of meals.'
+    ,'Dramatic weight loss. Rapid, drastic weight loss with no medical cause due to extreme measures of starving oneself or forceful vomiting.'
+    ,'Feeling fat, despite being underweight. Feeling overweight or just “too fat” in certain places, such as the stomach, hips, or thighs.'
+    ,'Lack of control over eating. Unable to stop eating until the point of physical discomfort and pain.'
+
+    ]
   };
   export const homeObjNine = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     //topLine: 'Reminder: Depression Is Not the End of the Battle. It is possible to get better.',
     headline: 'What causes Eating Disorders?',
     //description:
     imgStart: '',
-    img: 'images/redhead-laptop.png',
+    img: 'images/readhead-laptop.png',
     alt: 'Vault',
-    list: ['Early adverse life experiences, such as trauma or a history of abuse (for example, child abuse, sexual assault, witnessing violence, etc.)','Experiences related to other ongoing (chronic) medical conditions, such as cancer or diabetes','Biological factors or chemical imbalances in the brain','Having feelings of loneliness or isolation']
+    list: ['Genetics and biology: Certain people may have genes that increase their risk of developing eating disorders. Biological factors, such as changes in brain chemicals, may play a role in eating disorders.'
+    ,'Psychological and emotional health: People with eating disorders may have psychological and emotional problems that contribute to the disorder. They may have low self-esteem, perfectionism, impulsive behavior and troubled relationships.']
   };
   export const homeObjTen = {
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     //topLine: 'Lorem ipsum dolor sit amet',
-    headline: 'How to cope with PTSD?',
-    // description:`Depression can be caused by Medical conditions, such as stroke or cancer
+    headline: 'How to cope with Eating Disorders?',
+    description:'Eating disorders can be cured llike any othe mental illness. An helping hand can support people to cure this illness.',
     // Genes – people who have a family history of depression may be at higher risk
     // Stress, including caregiver stress
     // Sleep problems
@@ -158,5 +166,8 @@ export const homeObjTwo = {
     imgStart: '',
     img: 'images/girl-happy.png',
     alt: 'Vault',
-    list: ['Medical conditions, such as stroke or cancer Genes', 'People who have a family history of depression may be at higher risk', 'Stress, including caregiver stress', 'Sleep problems', 'Social isolation and loneliness', 'Lack of exercise or physical activity', 'Functional limitations that make engaging in activities of daily living difficult', 'Addiction and/or alcoholism —included in Substance-Induced Depressive Disorder']
+    list: ['Admit/Acknowledge the problem.'
+    ,'Talk to someone.' 
+    ,'Stay away from people, places, and activities that trigger your obsession with being thin.' 
+    ,'Seek professional help.']
   };
