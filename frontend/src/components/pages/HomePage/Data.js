@@ -52,6 +52,7 @@ export const homeObjOne = {
     buttonLabel: 'Learn More',
     imgStart: 'start',
     img: 'images/consultDoc.png',
-    alt: 'Vault'
+    alt: 'Vault',
+    link:'/Type'
   };
   

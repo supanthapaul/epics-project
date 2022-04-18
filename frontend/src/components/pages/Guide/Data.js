@@ -1,7 +1,7 @@
 export const homeObjOne = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     //topLine: 'Lorem ipsum dolor sit amet',
     headline: 'How to know if someone has depression?',
     // description:`- Disturbed sleep or sleeping too much\n
@@ -25,9 +25,9 @@ export const homeObjOne = {
   };
   
   export const homeObjTwo = {
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     //topLine: 'Lorem ipsum dolor sit amet',
     headline: 'What causes depression?',
     // description:`Depression can be caused by Medical conditions, such as stroke or cancer
@@ -47,9 +47,9 @@ export const homeObjOne = {
   };
   
   export const homeObjThree = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     //topLine: 'Lorem ipsum dolor sit amet',
     headline: 'Express how you feel',
     description:
@@ -63,9 +63,9 @@ export const homeObjOne = {
   };
   
   export const homeObjFour = {
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
    //topLine: 'Lorem ipsum dolor sit amet',
     headline: 'Why should we give importance to age-wise mental health',
     description:
@@ -75,5 +75,19 @@ export const homeObjOne = {
     img: 'images/data.png',
     alt: 'Vault',
     list: [' More than 50% will be diagnosed with a mental illness or disorder at some point in their lifetime.','1 in 5 Indians will experience a mental illness in a given year.','1 in 5 children, either currently or at some point during their life, have had a seriously debilitating mental illness.','1 in 25 Indians lives with a serious mental illness, such as schizophrenia, bipolar disorder, or major depression.']
+  };
+  export const homeObjFive = {
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    //topLine: 'Lorem ipsum dolor sit amet',
+    headline: 'Nothing ever goes away once it is posted online.',
+    description:
+      `Every age group is vulnerable to cyberbullying. It can lead to serious mental health issues. We should give importance to the after-effects of cyberbullying in mental health.`,
+    buttonLabel: 'Know More',
+    imgStart: 'start',
+    img: 'images/download (2).png',
+    alt: 'Vault',
+		link: "/Cyber"
   };
   

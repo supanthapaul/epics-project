@@ -13,6 +13,7 @@ import Adult from './components/pages/Ages/Adult/Adult';
 import Child from './components/pages/Ages/Child/Child';
 import Teenager from './components/pages/Ages/Teenager/Teenager';
 import Type from "./components/pages/Type/Type";
+import Cyber from "./components/pages/Cyber/Cyber";
 
 function App() {
 	return (
@@ -36,6 +37,7 @@ function App() {
               		<Route exact path='/Child' element={<Child />} />
               		<Route exact path='/Teenager' element={<Teenager />} />
 					  <Route exact path='/Type' element={<Type />} />
+					  <Route exact path='/Cyber' element={<Cyber />} />
 					{/* <Route exact path='/update-profile' element={<PrivateRoute />}>
 						<Route exact path='/update-profile' element={<UpdateProfile />} />
 					</Route>
