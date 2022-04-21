@@ -12,14 +12,14 @@ export const therapists= [
 		room: "2"
 	},
 	{
-		name: "Dr. Shabir Ahmad Dar",
-		photo: "https://randomuser.me/portraits/women/7.jpg",
+		name: "Dr. Chaitali Goswami",
+		photo: "https://randomuser.me/api/portraits/women/53.jpg",
 		status: "Online",
 		room: "3"
 	},
 	{
 		name: "Dr. Alan Notwalker",
-		photo: "https://randomuser.me/portraits/men/12.jpg",
+		photo: "https://randomuser.me/api/portraits/men/56.jpg",
 		status: "Online",
 		room: "4"
 	},
@@ -37,7 +37,7 @@ export const therapists= [
 	},
 	{
 		name: "Dr. Sujana Bhattacharjee",
-		photo: "https://randomuser.me/portraits/women/11.jpg",
+		photo: "https://randomuser.me/api/portraits/women/63.jpg",
 		status: "Offline",
 		room: "7"
 	},
