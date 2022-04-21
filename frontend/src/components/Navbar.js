@@ -92,7 +92,7 @@ function Navbar() {
 								</Link>
 							</li>
 							<li className="nav-item">
-								<a href="http://localhost:3006/" target="_blank" className="nav-links" onClick={closeMobileMenu}>
+								<a href="https://mindpeace-music-therapy.vercel.app/" target="_blank" className="nav-links" onClick={closeMobileMenu}>
 									Music Therapy
 								</a>
 							</li>
