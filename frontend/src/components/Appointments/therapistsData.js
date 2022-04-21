@@ -1,18 +1,18 @@
 export const therapists= [
 	{
-		name: "Dr. John Doe",
+		name: "Dr. Kamal Kishore Verma",
 		photo: "https://randomuser.me/portraits/men/4.jpg",
 		status: "Online",
 		room: "1"
 	},
 	{
-		name: "Dr. Jane Smith",
+		name: "Dr. Junaid Nabi",
 		photo: "https://randomuser.me/portraits/women/4.jpg",
 		status: "Online",
 		room: "2"
 	},
 	{
-		name: "Dr. Karen Pratt",
+		name: "Dr. Shabir Ahmad Dar",
 		photo: "https://randomuser.me/portraits/women/7.jpg",
 		status: "Online",
 		room: "3"
@@ -36,7 +36,7 @@ export const therapists= [
 		room: "6"
 	},
 	{
-		name: "Dr. Rihanna Shankar",
+		name: "Dr. Sujana Bhattacharjee",
 		photo: "https://randomuser.me/portraits/women/11.jpg",
 		status: "Offline",
 		room: "7"
