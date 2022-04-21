@@ -13,6 +13,7 @@ import Adult from './components/pages/Ages/Adult/Adult';
 import Child from './components/pages/Ages/Child/Child';
 import Teenager from './components/pages/Ages/Teenager/Teenager';
 import Type from "./components/pages/Type/Type";
+import Appointments from './components/Appointments/Appointments';
 
 function App() {
 	return (
@@ -26,6 +27,9 @@ function App() {
 
 					{/* <Route exact path='/' element={<PrivateRoute />}>
 					</Route> */}
+					<Route exact path='/appointments' element={<PrivateRoute />}>
+						<Route exact path='/appointments' element={<Appointments />} />
+					</Route>
 					<Route exact path='/diary' element={<PrivateRoute />}>
 						<Route exact path='/diary' element={<Diary />} />
 					</Route>

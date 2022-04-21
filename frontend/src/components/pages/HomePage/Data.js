@@ -22,6 +22,7 @@ export const homeObjOne = {
     description:
       'Find out several ways you can provide professional help for your peers like talking to their therapist to seek further guidance, taking them to see a mental health professional or contact a local mental health service.',
     buttonLabel: 'Get Started',
+		link: '/appointments',
     imgStart: '',
     img: 'images/deskDoc.png',
     alt: 'Vault'
