@@ -86,7 +86,7 @@ export const homeObjOne = {
       `Every age group is vulnerable to cyberbullying. It can lead to serious mental health issues. We should give importance to the after-effects of cyberbullying in mental health.`,
     buttonLabel: 'Know More',
     imgStart: 'start',
-    img: 'images/download (2).png',
+    img: 'images/cyber-front.png',
     alt: 'Vault',
 		link: "/Cyber"
   };
