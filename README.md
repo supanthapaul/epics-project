@@ -35,18 +35,28 @@ Nodejs should be installed in the device. Along with Nodejs, any code editor sho
 
 ### Installation
 
-1. Clone the repo
+Clone the repository
    ```sh
    git clone https://github.com/supanthapaul/mindpeace.git
-   ```
-   
-2. After cloning this repository, migrate to ```mindpeace-clone``` folder. Run the following commands to run your app:
-```bash
-  npm i (to install all the dependencies)
-  npm start
-  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-```
-3. The code and the description of the music therapy can be found [here](https://github.com/IUC4801/mindpeace-music-therapy) 
+   ```  
+### Setup Server
+To run the server, open the `backend` directory and create a `.env` file. The `.env` file must contain the following keys with appropriate values,
+  
+* `MONGOURL` - should correspond to the MongoDB connection string
+
+After this, run the following commands from your terminal within the `backend` directory,  
+* `npm install` (to install all the dependencies)
+* `npm start`  
+
+The server should start at [http://localhost:5000](http://localhost:5000), unless otherwise specified in `.env`.  
+
+### Setup Client
+To run the react client, open the `frontend` directory and run the following commands,  
+* `npm install` (to install all the dependencies)
+* `npm start`  
+* Open [http://localhost:3000](http://localhost:3000) to view it in your browser.  
+
+**The code and the description of the music therapy can be found** [here.](https://github.com/IUC4801/mindpeace-music-therapy)
 
 ## Machine configuration
 - `OS:` Windows 10 64 bit
@@ -65,4 +75,4 @@ Nodejs should be installed in the device. Along with Nodejs, any code editor sho
 * [Firebase](https://firebase.google.com/)
 
 ## Demo
-The site is live at: [https://epics-project.vercel.app/](https://epics-project.vercel.app/) and the music therapy is live at: [https://mindpeace-music-therapy.vercel.app/](https://mindpeace-music-therapy.vercel.app/)
+The frontend client is live at: [https://epics-project.vercel.app/](https://epics-project.vercel.app/) and the music therapy is live at: [https://mindpeace-music-therapy.vercel.app/](https://mindpeace-music-therapy.vercel.app/)
